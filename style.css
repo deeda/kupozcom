@@ -219,10 +219,10 @@ body a:hover {
 /* HOME SECTION */
 
 .intro-page {
-  padding-bottom: 170px;
-  min-height: calc(100vh - 170px);
+  padding-bottom: 0px;
+  min-height: calc(100vh);
   background-color: #221c5a;
-  background-image: url(images/item_background_01.jpg);
+  background-image: url(images/kupoz_bg.png);
   background-repeat: repeat;
   background-position: center top;
   background-size: cover;
@@ -1207,7 +1207,8 @@ footer {
   }
 
   .section {
-    padding-bottom: 150px;
+    padding-bottom: 200px;
+    padding-top: 200px;
   }
 
   .section-content-holder.right {
@@ -1424,12 +1425,14 @@ footer {
 
 @media screen and (max-width: 650px) {
   .member-content-holder {
-    width: 90%;
+    width: 100%;
+    height: 100%;
     float: none;
   }
 
   .member-image-holder {
     width: 100%;
+    height: 100%;
     float: none;
   }
 
