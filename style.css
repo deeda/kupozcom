@@ -106,7 +106,7 @@ body a:hover {
   padding-top: 15px;
   padding-bottom: 15px;
   transition: color 0.2s linear;
-  color: rgb(23, 7, 81);
+  color: rgb(6, 1, 27);
 }
 
 /* END TOP MENU */
@@ -921,7 +921,7 @@ span.contact-form-not-valid-tip {
 /* FOOTER */
 
 footer {
-  background-color: #221c5a;
+  background-color: #0d0224;
 }
 
 .footer {
